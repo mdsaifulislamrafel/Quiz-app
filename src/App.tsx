@@ -1,10 +1,11 @@
-import { Button } from "./components/ui/button"
+import Questian from "./home/Questian"
 
 function App() {
 
   return (
     <div>
-     <Button>Click me</Button>
+      <h3 className="text-center text-9xl my-12">Quiz App</h3>
+     <Questian/>
     </div>
   )
 }
